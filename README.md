@@ -63,8 +63,6 @@ Prerequisites
 Node.js (LTS recommended)
 npm or yarn
 A Firebase project with Firestore enabled
-Installation
-Bash
 
 # Clone the repository
 	git clone https://github.com/bekkerza/fireView.git
