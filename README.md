@@ -67,37 +67,35 @@ Installation
 Bash
 
 # Clone the repository
-git clone https://github.com/bekkerza/fireView.git
+	git clone https://github.com/bekkerza/fireView.git
 
 # Navigate into the project directory
-cd fireview
+	cd fireview
 
 # Install dependencies
-npm install # or yarn install
+	npm install # or yarn install
 Configuration
 FireView requires your Firebase Project ID. Additional Firebase configuration parameters (e.g., API Key, Auth Domain) should be stored in a .env.local file for secure and local management.
 
 Create a .env.local file in the root of your project:
 
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-firebase-project-id
-# Optional:
-NEXT_PUBLIC_FIREBASE_API_KEY=your-api-key
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-auth-domain.firebaseapp.com
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-storage-bucket.appspot.com
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
-NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
-NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=your-measurement-id
-Running the App
-Bash
+# Required:
+	NEXT_PUBLIC_FIREBASE_API_KEY=your-api-key
+	NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-auth-domain.firebaseapp.com
+	NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-storage-bucket.appspot.com
+	NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+	NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
+	NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=your-measurement-id
 
 # Run in development mode
-npm run dev # or yarn dev
+	npm run dev #	or yarn dev
 
 # Build for production
-npm run build # or yarn build
+	npm run build # or yarn build
 
 # Start production server
-npm start # or yarn start
+	npm start # or yarn start
 FireView should now be accessible at http://localhost:3000 (or your configured port).
 
 Contributing
