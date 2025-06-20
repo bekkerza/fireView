@@ -49,6 +49,7 @@ Edit document content directly in JSON format for precise and efficient updates.
 Streamline the process of adding multiple documents. FireView supports bulk import via JSON file, useful for initial data seeding or large-scale data ingestion.
 
 ![Bulk Imports](assets/bulkimport.png)
+
 Import multiple documents efficiently by uploading a JSON file.
 
 7. AI Summary for Collection Insights (Beta)
